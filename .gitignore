@@ -1,0 +1,7 @@
+# Working notes from the build process — not part of the package.
+/docs/
+/.superpowers/
+
+# Never belongs in this repo: there is no build step and no dependencies.
+node_modules/
+package-lock.json

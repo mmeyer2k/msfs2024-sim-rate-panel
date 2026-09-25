@@ -1,0 +1,19 @@
+{
+  "content": [
+    {
+      "path": "html_ui/efb_ui/efb_apps/SimRateApp/Assets/Icons/SimRate.svg",
+      "size": 397,
+      "date": 134346923152930000
+    },
+    {
+      "path": "html_ui/efb_ui/efb_apps/SimRateApp/SimRateApp.css",
+      "size": 2117,
+      "date": 134346892893410000
+    },
+    {
+      "path": "html_ui/efb_ui/efb_apps/SimRateApp/SimRateApp.js",
+      "size": 15409,
+      "date": 134346921432010000
+    }
+  ]
+}

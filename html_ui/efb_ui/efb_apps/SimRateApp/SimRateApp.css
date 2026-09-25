@@ -1,0 +1,99 @@
+/* Scoped under .sim-rate-app so nothing here can leak into the EFB shell. */
+.sim-rate-app {
+    --sim-rate-ink: #e9eef5;
+    --sim-rate-dim: #8b97a8;
+    --sim-rate-line: rgba(233, 238, 245, 0.16);
+    --sim-rate-fill: rgba(233, 238, 245, 0.06);
+    --sim-rate-accent: #3da9fc;
+
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5vh;
+    width: 100%;
+    height: 100%;
+    padding: 4vh 4vw;
+    color: var(--sim-rate-ink);
+    font-family: inherit;
+}
+
+.sim-rate-app *,
+.sim-rate-app *::before,
+.sim-rate-app *::after {
+    box-sizing: inherit;
+}
+
+.sim-rate-readout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.6vh;
+}
+
+.sim-rate-value {
+    font-size: 11vh;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    font-variant-numeric: tabular-nums;
+}
+
+.sim-rate-caption {
+    color: var(--sim-rate-dim);
+    font-size: 1.9vh;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+}
+
+/* Reserves its line whether or not there is a message, so the grid below
+   never jumps when a refusal appears. */
+.sim-rate-status {
+    min-height: 2.6vh;
+    color: var(--sim-rate-dim);
+    font-size: 1.9vh;
+    text-align: center;
+}
+
+.sim-rate-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.6vh 1.6vw;
+    width: 100%;
+}
+
+.sim-rate-preset,
+.sim-rate-reset {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--sim-rate-line);
+    border-radius: 0.8vh;
+    background: var(--sim-rate-fill);
+    cursor: pointer;
+    transition: background 120ms ease, border-color 120ms ease;
+}
+
+.sim-rate-preset {
+    min-height: 9vh;
+    font-size: 3.4vh;
+    font-variant-numeric: tabular-nums;
+}
+
+.sim-rate-preset:hover,
+.sim-rate-reset:hover {
+    background: rgba(233, 238, 245, 0.12);
+}
+
+.sim-rate-preset.active {
+    border-color: var(--sim-rate-accent);
+    background: rgba(61, 169, 252, 0.18);
+}
+
+.sim-rate-reset {
+    width: 100%;
+    min-height: 7vh;
+    margin-top: auto;
+    font-size: 2.4vh;
+    letter-spacing: 0.04em;
+}
