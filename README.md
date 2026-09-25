@@ -7,12 +7,14 @@ changes you made with a keybind, and changes the sim refused.
 Eight preset buttons, a live readout, and a Reset to 1x. No keybinds to learn,
 nothing to configure.
 
+![The Sim Rate panel open in the EFB during cruise, showing 2x selected](screenshots/sim-rate-panel-cockpit.png)
+
 <p>
-  <img src="screenshots/sim-rate-panel-open.png" alt="The Sim Rate panel open in the MSFS 2024 EFB, showing a 1x readout and the eight presets" width="360">
-  <img src="screenshots/sim-rate-panel.png" alt="Sim Rate in the MSFS 2024 EFB app list" width="360">
+  <img src="screenshots/sim-rate-panel-open.png" alt="The Sim Rate panel showing a 1x readout and the eight presets" width="330">
+  <img src="screenshots/sim-rate-panel.png" alt="Sim Rate in the MSFS 2024 EFB app list" width="330">
 </p>
 
-*Left: the panel, with the current rate highlighted. Right: Sim Rate in the EFB app list.*
+*The panel at 1x, and Sim Rate in the EFB app list alongside the built-in apps.*
 
 ## Install
 
