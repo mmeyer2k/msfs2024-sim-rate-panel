@@ -7,6 +7,13 @@ changes you made with a keybind, and changes the sim refused.
 Eight preset buttons, a live readout, and a Reset to 1x. No keybinds to learn,
 nothing to configure.
 
+<p>
+  <img src="screenshots/sim-rate-panel-open.png" alt="The Sim Rate panel open in the MSFS 2024 EFB, showing a 1x readout and the eight presets" width="360">
+  <img src="screenshots/sim-rate-panel.png" alt="Sim Rate in the MSFS 2024 EFB app list" width="360">
+</p>
+
+*Left: the panel, with the current rate highlighted. Right: Sim Rate in the EFB app list.*
+
 ## Install
 
 1. Download the release zip (or clone this repo).
